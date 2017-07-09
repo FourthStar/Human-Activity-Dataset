@@ -3,7 +3,7 @@ title: "Readme for Human Activity Summary Dataset Project"
 output: html_document
 ---
 
-This dataset is a summary of human activity measurements collected during normal activities.  The dataset was developed from the "Human Activity Recognition Using Smartphones Dataset" (HAR) from UCI.  The output of the project is a summary file titled HARSummary.csv. The project has developed the following files:
+This script creates a summary of human activity measurements collected during normal activities.  The dataset was developed from the "Human Activity Recognition Using Smartphones Dataset" (HAR) from UCI.  The output of the project is a summary file titled HARSummary.csv. The project has developed the following files:
 
 1. run_analysis.R -- the R script which downloads the original HAR dataset and creates the HARSummary.csv file.  The run_analysis.R script should be loaded into R or RStudio, and simply executed to produce the HARSummary.csv file.
 
