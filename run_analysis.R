@@ -55,7 +55,7 @@ library (reshape2)
 #-----------------------------------------------------------------------------------------------------
   d <- melt(dcombo, id=c("subject","activity"))  
   dharsum <- ddply(d,c("subject","activity","variable"),summarize, mean=mean(value))
-  write.csv(file="HARsummary.csv",dharsum, row.names=F)
+  write.table(file="HARsummary.txt",dharsum,row.names=F)
 
   
   
