@@ -11,9 +11,9 @@ library (reshape2)
   if (!file.exists("./data")) {
     dir.create("./data")
   }
-  filnam = "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-  download.file(filnam,destfile="./data/wearable.zip")
-  unzip("./data/wearable.zip")
+  # filnam = "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+  # download.file(filnam,destfile="./data/wearable.zip")
+  # unzip("./data/wearable.zip")
 
 #--- Read feature label dataset and convert feature labels into variable names.
   feature_name <- read.table ("./UCI HAR Dataset/features.txt")
